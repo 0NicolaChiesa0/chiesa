@@ -55,11 +55,18 @@ public class Smartphone {
 
     @Override
     public String toString() {
-        return "Sono uno smartphone";
+        String s="";
+        s= "Brand:"+brand+", Model: "+ model+", Storage Capacity: "+storageCapacity+"GB, Price: "+price;
+        return s;
     }
 
     @Override
     public boolean equals(Object obj) {
+        // boolean uguali=false;
+        // if (brand.equals(obj)&& model.equals(obj)&& storageCapacity==getStorageCapacity(obj)&&price==getPrice(obj)) {
+        // //     uguali=true;
+        // // }
+        // return uguali;
         return true;
     }
     

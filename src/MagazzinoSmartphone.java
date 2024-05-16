@@ -9,12 +9,12 @@ public class MagazzinoSmartphone {
     }
 
     public MagazzinoSmartphone(MagazzinoSmartphone other) {
-        // for (int i = 0; i < smartphones.length; i++) {
-        //     other.smartphones[i]=smartphones[i];
-        // }
-        for (int i = 0; i < smartphones.length; i++) {
-            
-        }
+    //     for (int i = 0; i < smartphones.length; i++) {
+    //         if (smartphones!=null){
+    //         other.smartphones[i]=smartphones[i];
+    //         }
+    //     }   
+    //}
         
     }
 
